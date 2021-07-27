@@ -3,28 +3,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<link rel="stylesheet" href="Resource/CSS/style.css"/>
+
 <meta charset="UTF-8">
 <title>Gunoo Desktop</title>
 <style>
-	body {
-		background-image : url(Image/background.jpg);
-		background-repeat : no-repeat;
-	}
-	.icon {
-		width: 50%;
-		margin : 5%;
-	}
 	img {
-		width : 90px;
+		width : 100px;
 		display : block;
-		font-weight : bold;
+		margin-left : 5px;
 	}
 </style>
 </head>
-<body>
+<body id="intro">
 
 <div class="icon" onClick=location.href="View/main.jsp">
-	<img src="Image/folder_icon.png"><b>포트폴리오</b>
+	<img src="Image/folder_icon.png">
+	<p id="icon_name">파일</p>
+</div>
+
+<div id="bar">
+
 </div>
 
 </body>

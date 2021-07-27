@@ -34,3 +34,30 @@
 	background-color : #fff;
 	position : relative;
 }
+
+#intro {
+	background : black url('background.jpg') no-repeat fixed 50% 50%/50% 50%;
+}
+
+#icon_name {
+	font-weight : bold;
+	color : white;
+	margin-left : 10px;
+	margin-top : -5px;
+}
+
+.icon {
+	width: 110px;
+	margin : 5%;
+	display : inline-block;
+	height : 130px;
+}
+
+#bar {
+	background-color : #FFFFFF;
+	width : 100%;
+}
+
+@media (max-width:600px) {
+
+}
