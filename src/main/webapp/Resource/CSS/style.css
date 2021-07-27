@@ -36,7 +36,7 @@
 }
 
 #intro {
-	background : black url('background.jpg') no-repeat fixed 50% 50%/50% 50%;
+	background : black url("../../Image/background.jpg") no-repeat fixed 50% 50%/50% 50%;
 }
 
 #icon_name {
@@ -52,10 +52,10 @@
 	display : inline-block;
 	height : 130px;
 }
-
 #bar {
 	background-color : #FFFFFF;
 	width : 100%;
+	height : 100px;
 }
 
 @media (max-width:600px) {
